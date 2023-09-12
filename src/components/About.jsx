@@ -9,7 +9,7 @@ const About = () => {
                         About Me
                     </p>
                     <p className='text-lg mt-14 text-justify xsm:mx-[10px] sm:mx-0 xsm:tracking-tighter sm:tracking-normal '>
-                        <span className='text-2xl mt-20 text-justify gradient-text font-semibold '>Hi there.! I'm Ghatna Koshti</span>, a recent graduate with a Bachelor of Engineering degree from L.D College of Engineering. My passion lies in the world of frontend development, where I've honed my skills in creating engaging and user-friendly interfaces. With an eye on the future, I aspire to delve into backend development and become a proficient full-stack developer, eager to contribute my expertise to innovative projects.
+                        <span className='text-2xl mt-20 text-justify gradient-text font-semibold '>Hi there.! I'm Ghatna Koshti</span>, a recent graduate with a Bachelor of Engineering degree in Electronics and Communication from L.D College of Engineering. My passion lies in the world of frontend development, where I've honed my skills in creating engaging and user-friendly interfaces. With an eye on the future, I aspire to delve into backend development and become a proficient full-stack developer, eager to contribute my expertise to innovative projects.
                     </p>
                     <br />
                     <p className='text-lg text-justify xsm:mx-[10px] sm:mx-0 xsm:tracking-tighter sm:tracking-normal'>

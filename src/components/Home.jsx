@@ -21,7 +21,6 @@ const Home = () => {
                             Web Developer💻
                         </h2>
                         <div className='xsm:block pt-3 sm:hidden'>
-                            {/* Display the image only on screens larger than md (e.g., desktop) */}
                             <img src={MyImage} alt="my profile" className='rounded-3xl mx-auto w-2/3 md:max-w-max shadow-lg shadow-blue-400' />
                         </div>
 
@@ -29,12 +28,19 @@ const Home = () => {
                             A web developer dedicated to enhancing user experiences. My expertise lies in frontend design, and I'm actively advancing my skills in backend development to become a versatile full-stack developer.
                         </p>
                         <div className='xsm:flex xsm:items-center xsm:justify-center sm:hidden'>
-                            <Link to="projects" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-blue-500 cursor-pointer'>
+                            <Link to="projects" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 mx-2 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-blue-500 cursor-pointer'>
                                 Projects
                                 <span className='group-hover:rotate-90 duration-300'>
                                     <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
                                 </span>
                             </Link>
+
+                            <a href="/Resume.pdf" download="YourResume.pdf" className='group text-white w-fit px-6 py-3 my-2 mx-2 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-blue-500 cursor-pointer'>
+                                Resume
+                                <span className='group-hover:rotate-90 duration-300'>
+                                    <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
+                                </span>
+                            </a>
                         </div>
                         <div className='xsm:hidden sm:flex'>
                             <Link to="projects" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-blue-500 cursor-pointer'>

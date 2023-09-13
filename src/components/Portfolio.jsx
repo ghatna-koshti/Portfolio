@@ -69,7 +69,7 @@ const Portfolio = () => {
                     {
                         portfolios.map(({ id, src,demo,code,name }) => (
                             
-                            <div key={id}  className='shadow-md shadow-gray-600 rounded-lg '>
+                            <div key={id} data-aos="fade-up"   className='shadow-md shadow-gray-600 rounded-lg '>
                                 <p className='text-lg font-bold py-2 text-center shadow-inner rounded-md shadow-gray-600'>{name}</p>
 
                                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />

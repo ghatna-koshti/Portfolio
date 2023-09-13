@@ -2,10 +2,10 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div name="about" className='w-full h-fit bg-gradient-to-b from-gray-800 to-black text-white xsm:pt-[65px] sm:pt-[110px] '>
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+        <div name="about"  className='w-full h-fit bg-gradient-to-b from-gray-800 to-black text-white xsm:pt-[65px] sm:pt-[110px] '>
+            <div data-aos="fade-up" className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8 xsm:text-center sm:text-start'>
-                    <p className='text-4xl  font-bold inline border-b-4 border-gray-500   '>
+                    <p  className='text-4xl  font-bold inline border-b-4 border-gray-500   '>
                         About Me
                     </p>
                     <p className='text-lg mt-14 text-justify xsm:mx-[10px] sm:mx-0 xsm:tracking-tighter sm:tracking-normal '>

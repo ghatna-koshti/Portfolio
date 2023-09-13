@@ -10,7 +10,7 @@ const Home = () => {
 
             <div name="home" className='h-fit  w-full bg-gradient-to-b from-black via-black to-gray-800 py-10' style={{ zIndex: 1 }}>
                 <div className='max-w-screen-lg mx-auto  flex flex-col items-center justify-center h-full px-4 md:flex-row xsm:pt-[50px] sm:pt-[150px] '>
-                    <div className='flex flex-col justify-center h-full'>
+                    <div  data-aos="zoom-out" className='flex flex-col justify-center h-full'>
                         <h2 className='text-2xl sm:text-4xl font-semibold  text-sky-400 pb-2 xsm:text-center sm:text-start'>
                             Hello!!🙋🏻‍♀️,
                         </h2>

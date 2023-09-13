@@ -17,8 +17,10 @@ function App() {
   useEffect(() => {
     // Initialize AOS
     AOS.init({
-      duration: 800,
-      anchorPlacement: 'top-bottom' 
+      duration: 1000,
+      anchorPlacement: 'top-bottom',
+      once: false,
+      mirror: true, 
     });
 
     setTimeout(() => {

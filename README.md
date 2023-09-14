@@ -2,7 +2,12 @@
 
 Welcome to my personal portfolio website built with React. This portfolio showcases my skills, projects, and experience, while incorporating smooth scrolling, AOS animations, and stylish design using Tailwind CSS.
 
-![Portfolio Screenshot](screenshots/portfolio.png)
+## ScreenShot
+
+![image](https://github.com/ghatna-koshti/Portfolio/assets/142246764/367ba72f-833a-4066-ba21-2655b8980200)
+![image](https://github.com/ghatna-koshti/Portfolio/assets/142246764/c0ca3af5-3006-415f-a3d4-4a3b5d0e69f7)
+
+
 
 ## Features
 
@@ -14,7 +19,7 @@ Welcome to my personal portfolio website built with React. This portfolio showca
 
 ## Live Demo
 
-Check out the live demo of my portfolio at [https://www.yourportfolio.com](https://www.yourportfolio.com).
+Check out the live demo of my portfolio at https://ghatna-koshti.github.io/Portfolio/
 
 ## Technologies Used
 
@@ -22,11 +27,4 @@ Check out the live demo of my portfolio at [https://www.yourportfolio.com](https
 - Tailwind CSS
 - AOS (Animate On Scroll) library
 
-## Getting Started
 
-To run this project locally on your machine, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/portfolio.git

@@ -41,7 +41,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/Ghatna_Koshti_Resume.pdf',
+            href: process.env.PUBLIC_URL + '/Ghatna_Koshti_Resume.pdf',
             style: 'rounded-br-md',
             download: true,
         },
